@@ -14,7 +14,7 @@ font-family: 'Playfair Display', serif;
 	height: 50px;
 	padding: 10pt;
 
-	background-image: url('../img/index2_img.jpg');
+	background-image: url('../img/index9_img.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
@@ -31,20 +31,20 @@ nav {
 font-family: 'Playfair Display', serif;
 	text-align: center;
 	font-size: 18px;
-background-image: url('../img/index2_img.jpg');
+background-image: url('../img/index9_img.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
 }
 a {
 	text-decoration: none;
-	color: #696969;
+	color: #2F4F4F;
 	
 }
 
 /*footer {
 	
-	position : fixed;
+	position : absolute;
 
 height : 50px;
 
@@ -76,7 +76,7 @@ font-size: 18px;
 
 aside p {
 	text-align: justify;
-	margin-left: 25px;
+	margin-right: 25px;
 
 	font-size: 14px;
 
@@ -99,7 +99,7 @@ aside p {
    
 body 
 	{
-		background-image: url('../img/index2_img.jpg');
+		background-image: url('../img/index9_img.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
@@ -109,7 +109,7 @@ body
 
 .blabla
 	{
-		background-image: url('../img/index_img.jpg');
+		background-image: url('../img/index4_img.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
@@ -122,3 +122,19 @@ body
 		padding-left: 100px ;
 		font-size: 20px;
 	}
+.aligncenter 
+	{
+		text-align: center;
+	}
+
+.leftimg
+	{
+    	float:left; /* Выравнивание по левому краю */
+    	margin:  10px 15px 20px 7px; /* Отступы вокруг картинки */
+	}
+
+.rightimg  
+	{
+    	float: right; /* Выравнивание по правому краю  */ 
+    	margin: 7px 20px 15px 10px; /* Отступы вокруг картинки */
+   	}
