@@ -175,7 +175,7 @@ body
 /* Navigation item styles */
 div.sim-slider-arrow-left,
 div.sim-slider-arrow-right {
-  width: 22px;
+  width: 42px;
   height: 40px;
   position: absolute;
   cursor: pointer;
